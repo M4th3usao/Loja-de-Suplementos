@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Produtos - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="">Contatos</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="carrinho.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>Todos os Produtos</h2>
+            <select>
+                <option>Padrão de classificação</option>
+                <option>Curto pelo Preço</option>
+                <option>Curto pela Popularidade</option>
+                <option>Curto pela Classificação</option>
+                <option>Descoberto em Venda</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="imagesAC/calça_femi4.jpg" alt="Calça Runner Feminina, na cor preta e vermelha">
+                <h4>Kit Runner Woman - Oakley </h4>
+                <div class="Avaliação" alt="Avaliação com 4 estrelas.">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$ 79,90</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/camisa_BS5.jpg" alt="Camisa Darkness na cor preta e estampa branca.">
+                <h4>Camisa Darkness </h4>
+                <div class="Avaliação" alt='Está avaliada em 4.5 estrelas.'>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 59,90</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/roupas_femi5.jpg" alt="Top e calça esportiva Adidas, na cor cinza com detalhes floridos e faixas brancas.">
+                <h4>Calça Esportiva - Adidas</h4>
+                <div class="Avaliação" alt="Avaliada em 4 estrelas.">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$ 99,90</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos8.jpg" alt="BCAA 2:1:1* da NewNutrition">
+                <h4> BCAA 2.1 - NewNutrition </h4>
+                <div class="Avaliação" alt='Avaliado em 4.5 estrelas'>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 229,90</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagesAC/camisa_BS6.jpg">
+                <h4>Camisa Hulk - Strong</h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$ 299,99</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos9.jpg" alt="Kit Espartanos, contém: Whey Protein, BCAA, VitaPlex, Glutamina e Creatina">
+                <h4>Protein Fusion - Espartanos</h4>
+                <div class="Avaliação" alt="O kit tem 4.5 estrelas.">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 129,90</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/bolsa.jpg" alt="Bolsa Everlast para academia, sendo preta com detalhes e o nome da marca na cor rosa.">
+                <h4>Bolsa Everlast</h4>
+                <div class="Avaliação" alt='Avaliada em 5 estrelas'>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>R$ 199,99</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos10.jpg">
+                <h4> Kit Concentretion - Espartanos </h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 140,00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos11.jpg">
+                <h4>Whey Pure 100% - Roadster</h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$ 250,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos12.jpg">
+                <h4>Whey Waxy + Creatina - Bodybuilders </h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 399,90</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/kit_suplementos13.jpg">
+                <h4>Whey For Feminy - Profit</h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$ 235,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagesAC/barra.jpg">
+                <h4> Barras Dark Chocolate - Darkness </h4>
+                <div class="Avaliação">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$ 149,50</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+           <span><a href="produtos.html">1</a></span>
+           <span><a href="produtos2.html">2</a></span>
+           <span><a href="produtos3.html">3</a></span>
+           <span>&#8594;</span>
+        </div>
+    </div>
+
+<!--------------- Footer = Rodapé ---------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App</h3>
+                    <p>Baixe o App para celular Android e IOS</p>
+                    <div class="app-logo">
+                       <img src="images/play-store.png"> 
+                       <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Nosso objetivo é tornar o prazer e os benefícios dos esportes acessíveis a muitos</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Postagem do blog</li>
+                        <li>Política de devolução</li>
+                        <li>Torne-se um Afiliado</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siga-nos</h3>
+                    <ul>
+                        <li>FacebooK</li>
+                        <li>Whatsapp</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p><i class="fa fa-copyright" aria-hidden="true">Copyright 2021 - Matheus Henrique</i></p>
+        </div>
+    </div>
+
+<!-------------------JavaScript Alternar Menu = toggle menu--------------------->   
+    <script>
+        var MenuItems = document.getElementById("MenuItems") 
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
